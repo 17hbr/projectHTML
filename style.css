@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #fdfdfd;
+    color: #333;
+  }
+  
+  
+  header {
+    background: url('tlobaner.png') center/cover no-repeat;
+    height: 400px;
+    position: relative;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+  .top-bar {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo img {
+    height: 50px;
+  }
+  
+  .search-cart {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  .search-cart input {
+    padding: 6px 10px;
+    border: none;
+    border-radius: 3px;
+    font-size: 14px;
+  }
+  
+  .cart {
+    color: white;
+    text-decoration: none;
+    background-color: #000;
+    padding: 6px 12px;
+    border-radius: 3px;
+    font-size: 14px;
+  }
+  
+  .cart:hover {
+    background-color: #444;
+  }
+  
+  header h1 {
+    font-size: 48px;
+    letter-spacing: 8px;
+    margin: 0;
+    text-transform: uppercase;
+  }
+  
+  header p {
+    font-size: 24px;
+    letter-spacing: 4px;
+  }
+  
+  
+  .produkty {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .produkty h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 40px;
+    letter-spacing: 4px;
+  }
+  
+  .produkty-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    justify-items: center;
+  }
+  
+  .produkt {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .produkt:hover {
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+  
+  .produkt img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    width: 539px;
+    height: 597px;
+    object-fit: cover;
+    margin-bottom: 15px;
+
+  }
+  
+  .produkt h3 {
+    font-size: 20px;
+    margin: 10px 0;
+  }
+  
+  .produkt .cena {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #c00;
+  }
+  
+  .produkt .stara-cena {
+    text-decoration: line-through;
+    color: #777;
+    font-size: 14px;
+  }
+  
+  .produkt a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #000;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 1px;
+  }
+  
+  .produkt a:hover {
+    background-color: #444;
+  }
+  
